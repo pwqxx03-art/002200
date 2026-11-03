@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>황야의 탄피</title>
+  <style>
+    *{box-sizing:border-box}
+    html,body{margin:0;background:#0f0c09;color:#fff}
+    body{font-family:Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+    main{width:min(1100px,100%);margin:0 auto;padding:0 0 40px}
+    .image-block{display:block;width:100%;line-height:0}
+    .image-block img{display:block;width:100%;height:auto;border:0}
+    .character-link{display:block;position:relative;cursor:pointer}
+    .character-link:focus-visible{outline:3px solid #d6aa68;outline-offset:-3px}
+    .character-link img{transition:filter .2s ease,transform .2s ease}
+    .character-link:hover img{filter:brightness(1.08);transform:translateY(-1px)}
+    @media(max-width:600px){main{padding-bottom:20px}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="image-block">
+      <img src="https://raw.githubusercontent.com/pwqxx03-art/01/main/01%ED%99%A9%EC%95%BC.png" alt="황야의 탄피">
+    </div>
+
+    <a class="image-block character-link" href="character.html" aria-label="캐릭터 소개 보러가기">
+      <img src="character-banner.jpg" alt="캐릭터 소개 보러가기">
+    </a>
+  </main>
+</body>
+</html>
